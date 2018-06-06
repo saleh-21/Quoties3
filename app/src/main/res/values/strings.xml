@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quoties</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="explore">Explore</string>
+    <string name="star_quotes">Star Quotes</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_quote">addQuoteActivity</string>
+    <string name="favorite">Favorite</string>
+    <string name="you_didn_t_add_any_quote_to_your_favorite_quotes">You didn\'t add any quote to your favorite quotes!</string>
+    <string name="create_floating_widget">Create Floating Widget</string>
+    <string name="floating_widget_label">Floating Widget Label</string>
+    <string name="floating_widget_details">Floating Widget Details</string>
+    <string name="draw_other_app_permission_denied">Draw over other app permission not available. App won\'t work without permission. Please try again.</string>
+    <string name="interest">Interests:</string>
+    <string name="loading">Loading</string>
+</resources>

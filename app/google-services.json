@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "101090422549",
+    "firebase_url": "https://quoties-d1624.firebaseio.com",
+    "project_id": "quoties-d1624",
+    "storage_bucket": "quoties-d1624.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101090422549:android:c0e47fbe20aaeb89",
+        "android_client_info": {
+          "package_name": "com.goldenkey.quoties"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101090422549-vua380jvhoac60pgpcss1rpfl9bhj238.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goldenkey.quoties",
+            "certificate_hash": "8cd87a70214962b6071af14e7599dd77fc2a74ad"
+          }
+        },
+        {
+          "client_id": "101090422549-tti9o0hta61og8ce8aips27gh2afkr4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz3vTiJ_SruuW0JUpsPtJmZ8fWJ9q7D3Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101090422549-tti9o0hta61og8ce8aips27gh2afkr4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

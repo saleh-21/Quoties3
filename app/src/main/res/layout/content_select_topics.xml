@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.goldenkey.quoties.selectTopicActivity"
+    tools:showIn="@layout/activity_select_topics">
+
+    <Button
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Health  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item30"
+        app:layout_constraintStart_toStartOf="@+id/item30"
+        app:layout_constraintTop_toBottomOf="@+id/item32"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item29"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Time  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item21"
+        app:layout_constraintStart_toStartOf="@+id/item21"
+        app:layout_constraintTop_toBottomOf="@+id/item33"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item19"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Smile  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item11"
+        app:layout_constraintStart_toStartOf="@+id/item11"
+        app:layout_constraintTop_toBottomOf="@+id/item13"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item20"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Diet  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item16"
+        app:layout_constraintStart_toStartOf="@+id/item16"
+        app:layout_constraintTop_toBottomOf="@id/item24"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item21"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Happiness  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item25"
+        app:layout_constraintStart_toStartOf="@+id/item25"
+        app:layout_constraintTop_toBottomOf="@+id/item34"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item22"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Tech  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item13"
+        app:layout_constraintStart_toStartOf="@+id/item13"
+        app:layout_constraintTop_toBottomOf="@+id/item24"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item32"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Faith  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item26"
+        app:layout_constraintStart_toStartOf="@+id/item26"
+        app:layout_constraintTop_toBottomOf="@+id/item30"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item31"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Peace  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item20"
+        app:layout_constraintStart_toStartOf="@+id/item20"
+        app:layout_constraintTop_toBottomOf="@+id/item34"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item30"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Failure  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item22"
+        app:layout_constraintStart_toStartOf="@+id/item22"
+        app:layout_constraintTop_toBottomOf="@+id/item34"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item24"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Respect  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item18"
+        app:layout_constraintStart_toStartOf="@+id/item18"
+        app:layout_constraintTop_toBottomOf="@+id/item13"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item25"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Sad  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item15"
+        app:layout_constraintStart_toStartOf="@+id/item15"
+        app:layout_constraintTop_toBottomOf="@+id/item24"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item26"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Hope  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item19"
+        app:layout_constraintStart_toStartOf="@+id/item19"
+        app:layout_constraintTop_toBottomOf="@+id/item22"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item28"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Success  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item31"
+        app:layout_constraintStart_toStartOf="@+id/item31"
+        app:layout_constraintTop_toBottomOf="@+id/item32"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item34"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Sympathy  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item24"
+        app:layout_constraintStart_toStartOf="@+id/item24"
+        app:layout_constraintTop_toBottomOf="@+id/item22"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item33"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Inspirational  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item34"
+        app:layout_constraintStart_toStartOf="@+id/item34"
+        app:layout_constraintTop_toBottomOf="@+id/item21"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Love  ✚"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item10"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Art  ✚"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item18"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Friendship  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item1"
+        app:layout_constraintTop_toBottomOf="@+id/item17"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item17"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Funny  ✚"
+        app:layout_constraintEnd_toStartOf="@+id/item1"
+        app:layout_constraintStart_toEndOf="@+id/item10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item16"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Wisdom  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item10"
+        app:layout_constraintStart_toStartOf="@+id/item10"
+        app:layout_constraintTop_toBottomOf="@+id/item11"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item15"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Strength  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item1"
+        app:layout_constraintStart_toStartOf="@+id/item1"
+        app:layout_constraintTop_toBottomOf="@+id/item18"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item13"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="War  ✚"
+        app:layout_constraintEnd_toEndOf="@+id/item17"
+        app:layout_constraintStart_toStartOf="@+id/item17"
+        app:layout_constraintTop_toBottomOf="@+id/item11"
+        app:srcCompat="@color/back_ground2" />
+
+    <Button
+        android:id="@+id/item11"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Life  ✚"
+        app:layout_constraintEnd_toStartOf="@+id/item18"
+        app:layout_constraintStart_toStartOf="@+id/item10"
+        app:layout_constraintTop_toBottomOf="@+id/item17"
+        app:srcCompat="@color/back_ground2" />
+
+</android.support.constraint.ConstraintLayout>
